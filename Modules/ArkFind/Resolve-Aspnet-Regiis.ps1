@@ -36,14 +36,14 @@ function Resolve-Aspnet-Regiis(){
 .Synopsis
   returns the location of aspnet_regiis.exe
 
- .Description
+.Description
   Determine the location of aspnet_regiis.exe for use in IIS or encryption container operations.
 
- .Example
+.Example
    # Return a string of the path if found for aspnet_regiis.exe.
    Resolve-Aspnet-Regiis -NetVersion "4" 
 
- .Example
+.Example
    # Return a string of the path if found for aspnet_regiis.exe. with verbose logging
    Resolve-Aspnet-Regiis -NetVersion "4" -Verbose
 #>
