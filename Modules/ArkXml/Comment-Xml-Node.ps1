@@ -31,8 +31,6 @@
 #	History:
 #		- Initial Release (Sean Jordan)
 ###################################################################################
-Import-Module -Name "ArkFind"
-
 function Comment-Xml-Node(){
 <# 
 .Synopsis
